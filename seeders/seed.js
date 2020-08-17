@@ -135,13 +135,5 @@ db.Workout.deleteMany({})
     process.exit(1);
   });
 
-// db.create(workoutSeed)
-//   .then(dbWorkout => {
-//     console.log(dbWorkout);
-//   })
-//   .catch(({message}) => {
-//     console.log(message);
-//   });
 
 
-// module.exports = workoutSeed;
