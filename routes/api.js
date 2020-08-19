@@ -3,6 +3,7 @@ const db = require("../models");
 module.exports = (app) => {
 
 app.post("/api/workouts", (req, res) => {
+  console.log(req.body);
   db.Work.create({day: Date.now()})
     .then(Workout => {
       res.json(Workout);
